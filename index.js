@@ -15,7 +15,7 @@ const User = require("./models/User");
 
 const app = express();
 
-const PORT = process.env.port || 4000;
+const PORT = process.env.PORT || 4000;
 
 const httpServer = createServer(app);
 
